@@ -13,9 +13,9 @@ public class Square {
     }
     public static void main(String args[]){
         int number;
-        Scanner kb = new Scanner(System.in);   //Scanner object to read the input
+        Scanner keyBoard = new Scanner(System.in);   //Scanner object to read the input
         System.out.print("Enter length of the square : ");
-        number = kb.nextInt();
+        number = keyBoard.nextInt();
         square(number);
     }
 }
