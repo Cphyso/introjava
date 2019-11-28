@@ -16,9 +16,9 @@
             }
         }
         public  static void main(String args[]) {
-            Scanner kb = new Scanner(System.in);
+            Scanner keyBoard = new Scanner(System.in);
             System.out.print("Enter number to print a right angled triangle : ");
-            isosceles(kb.nextInt());
+            isosceles(keyBoard.nextInt());
         }
     }
 
