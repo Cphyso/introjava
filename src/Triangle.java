@@ -12,9 +12,9 @@ public class Triangle {
 
     }
     public  static void main(String args[]) {
-        Scanner kb = new Scanner(System.in);
+        Scanner keyBoard = new Scanner(System.in);
         System.out.print("Enter number size (for a right angled triangle) : ");
-        triangle(kb.nextInt());
+        triangle(keyBoard.nextInt());
     }
 
 }
