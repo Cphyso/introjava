@@ -26,6 +26,6 @@ public class FrameText {
         for (int i = 0; i <= maxsize + 1; i++) {
             System.out.print("*");
         }
-        System.out.print("*");
+        System.out.print("*/n");
     }
 }
